@@ -4,15 +4,15 @@ A minimal markdown live editor.
 
 <img src="./screenshot.png" width="250"/>
 
+## Live Demo
+
+View the live demo [here](https://md-editt.netlify.app).
+
 ## Features
 
 - Live preview while editing
-- Secure Markdown rendering
 - Export as Markdown or HTML
-
-## Demo
-
-View the live demo [here](https://md-editt.netlify.app).
+- Secure Markdown rendering
 
 ## Getting Started
 
@@ -40,3 +40,10 @@ npm run dev
 # or
 yarn dev
 ```
+
+## Tech Stack
+
+- React
+- Vite
+- Marked (Markdown parser & compiler)
+- DOMPurify (HTML sanitizer)
