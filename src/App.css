@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  color: #212121;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+svg {
+  display: block;
+}
+
+button {
+  background: none;
+  font: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 4.5rem;
+  background-color: #373d49;
+  color: #f1f1f1;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,64 @@
+.editor-window {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: calc(100dvh - 4.5rem);
+}
+
+.pane {
+  overflow-y: hidden;
+}
+
+.pane:first-of-type {
+  border-right: 1px solid #bdbdbd;
+}
+
+.pane-hidden {
+  display: none;
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  font: inherit;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.85rem;
+  color: inherit;
+  border: none;
+  overflow-y: scroll;
+  resize: none;
+}
+
+.editor:focus {
+  outline: none;
+}
+
+.preview-output {
+  height: 100%;
+  padding: 1rem;
+  font: inherit;
+  color: inherit;
+  overflow-y: scroll;
+}
+
+.preview-output a {
+  color: #00bcd4;
+}
+
+.preview-output pre {
+  color: inherit;
+}
+
+.preview-output code {
+  font-family: "Roboto Mono", monospace;
+}
+
+@media screen and (max-width: 767px) {
+  .editor-window {
+    grid-template-columns: 1fr;
+  }
+
+  .pane:first-of-type {
+    border-right: none;
+  }
+}

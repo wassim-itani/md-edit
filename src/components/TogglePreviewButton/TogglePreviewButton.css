@@ -1,0 +1,12 @@
+.toggle-preview-btn {
+  display: none;
+}
+
+@media screen and (max-width: 47.9375em) {
+  .toggle-preview-btn {
+    display: block;
+  }
+  .toggle-preview-btn:hover {
+    color: #00acc1;
+  }
+}

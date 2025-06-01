@@ -1,0 +1,8 @@
+.logo {
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  color: #00acc1;
+}
