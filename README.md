@@ -2,7 +2,7 @@
 
 A minimal markdown live editor.
 
-<img src="./screenshot.png" width="250"/>
+<img src="./screenshot.png" width="300"/>
 
 ## Live Demo
 
@@ -44,6 +44,7 @@ yarn dev
 ## Tech Stack
 
 - React
+- CSS3
 - Vite
 - Marked (Markdown parser & compiler)
 - DOMPurify (HTML sanitizer)
